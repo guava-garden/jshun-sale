@@ -1,0 +1,16 @@
+<mxfile host="app.diagrams.net" modified="2023-08-17T02:41:13.734Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="uWHpCs2n7YDNkZ_tD7lV" version="21.6.8" type="device">
+  <diagram name="第 1 页" id="RSTH0A9Fy7KfbpkQ3IGk">
+    <mxGraphModel dx="493" dy="1476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="m3cxBnHvqO1AkCnyJKCn-3" value="DevOps&lt;br&gt;&lt;br&gt;- GCP for production and staging environment&lt;br&gt;&amp;nbsp; - region: us-central&lt;br&gt;&lt;br&gt;- production portal with free tier GCE&amp;nbsp;&lt;br&gt;&amp;nbsp; - e2-micro: 2 vcpu&lt;br&gt;&amp;nbsp; - 1GB ram&lt;br&gt;&amp;nbsp; - 30GB PD&lt;br&gt;&amp;nbsp; - 1g network egress&lt;br&gt;&amp;nbsp; - static ip (for production service)&lt;br&gt;&lt;br&gt;- production&amp;nbsp; backend and CICD env with free tier GKS&lt;br&gt;&amp;nbsp; - no managment fee for k8s cluster with free tier GKS&lt;br&gt;&amp;nbsp; - using Tau T2A VM as Nodes in standard mode&lt;br&gt;&amp;nbsp; &amp;nbsp; - monthly 222 credit&amp;nbsp; (t2a-standard-1 costs 34 monthly)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="20" width="340" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="m3cxBnHvqO1AkCnyJKCn-4" value="DevSoftArch&lt;br&gt;&lt;br&gt;- frontend&lt;br&gt;&amp;nbsp; - Web: easier for CRUD presentation and pdf print&lt;br&gt;- backend: micro service&lt;br&gt;&amp;nbsp; - DB: sqlite?&lt;br&gt;&amp;nbsp; - DevProgLang: python/go for easier DB integration&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="380" y="-40" width="340" height="270" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
