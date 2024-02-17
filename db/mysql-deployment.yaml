@@ -28,7 +28,7 @@ spec:
     - ReadWriteOnce
   resources:
     requests:
-      storage: 20Gi
+      storage: 1Gi
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -73,6 +73,10 @@ spec:
         volumeMounts:
         - name: mysql-persistent-storage
           mountPath: /var/lib/mysql
+      tolerations:
+      - key: "kubernetes.io/arch"
+        value: "arm64"
+        effect: "NoSchedule"
       volumes:
       - name: mysql-persistent-storage
         persistentVolumeClaim:
